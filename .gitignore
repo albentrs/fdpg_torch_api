@@ -1,0 +1,20 @@
+# Bytecode-Dateien
+__pycache__/
+*.py[cod]
+
+# Virtuelle Umgebungen
+venv/
+.env/
+.env.productive
+
+# PyCharm-Einstellungen und Workspace-Dateien
+.idea/
+
+# Logs
+*.log
+
+#note files
+Schritte.txt
+
+
+

@@ -1,0 +1,6 @@
+python-dotenv
+requests
+urllib3
+fastapi
+uvicorn
+jsonschema

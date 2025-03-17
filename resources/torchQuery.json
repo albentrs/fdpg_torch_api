@@ -1,0 +1,18 @@
+{
+    "display": "",
+    "version": "http://json-schema.org/to-be-done/schema#",
+    "cohortDefinition": "XXXX",
+    "dataExtraction": {
+        "attributeGroups": [
+            {
+                "groupReference": "https://www.medizininformatik-initiative.de/fhir/core/modul-person/StructureDefinition/PatientPseudonymisiert|2024.0.0",
+                "attributes": [
+                    {
+                        "attributeRef": "Patient.id",
+                        "mustHave": true
+                    }
+                ]
+            }
+        ]
+    }
+}

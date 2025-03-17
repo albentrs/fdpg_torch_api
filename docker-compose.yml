@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+  fdpg_torch_api:
+    build:
+      context: Dockerfile
+    environment:
+      ##FDPG##
+      - FDPG_SQ_JSON_SCHEMA=${FDPG_SQ_JSON_SCHEMA}
+      - FDPG_GROUP_REFERENCE=${FDPG_GROUP_REFERENCE}
+      ##TORCH##
+      - TORCH_BASE_URL=${TORCH_BASE_URL}
+      - TORCH_NGINX_SERVER=${TORCH_NGINX_SERVER}
+      - TORCH_USERNAME=${TORCH_USERNAME}
+      - TORCH_PASSWORD=${TORCH_PASSWORD}
+    ports:
+      - "8000:8000"

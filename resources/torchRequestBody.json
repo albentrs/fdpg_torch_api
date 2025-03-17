@@ -1,0 +1,10 @@
+{
+    "resourceType": "Parameters",
+    "id": "example6",
+    "parameter": [
+        {
+            "name": "crtdl",
+            "valueBase64Binary": "XXXX"
+        }
+    ]
+}
