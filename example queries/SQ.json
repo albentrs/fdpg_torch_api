@@ -1,0 +1,24 @@
+{
+    "version": "http://to_be_decided.com/draft-1/schema#",
+    "display": "Ausgewählte Merkmale",
+    "inclusionCriteria": [
+        [
+            {
+                "termCodes": [
+                    {
+                        "code": "I25.13",
+                        "display": "Atherosklerotische Herzkrankheit: Drei-Gefäß-Erkrankung",
+                        "system": "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+                        "version": "2025"
+                    }
+                ],
+                "context": {
+                    "code": "Diagnose",
+                    "display": "Diagnose",
+                    "system": "fdpg.mii.cds",
+                    "version": "1.0.0"
+                }
+            }
+        ]
+    ]
+}
